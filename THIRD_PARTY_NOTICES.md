@@ -9,6 +9,9 @@ Avgust Arkstone includes open-source components and, when you ask, downloads ope
 Скачиваются из официальных релизов на GitHub в `Data/Engines` и запускаются как отдельные программы.
 * **Движок текста** — llama.cpp (github.com/ggml-org/llama.cpp), MIT License. Copyright (c) 2023-2026 The ggml authors.
 * **Движок картинок** — stable-diffusion.cpp (github.com/leejet/stable-diffusion.cpp), MIT License. Copyright (c) 2023 leejet.
+* **Движок облака** — Node.js (nodejs.org), MIT License. Copyright Node.js contributors. Скачивается с nodejs.org, файл сверяется с опубликованной суммой sha256.
+
+**Облако / Cloud** — в приложение встроен FreeLLMAPI (github.com/tashfeenahmed/freellmapi), MIT License. Copyright (c) 2026 Tashfeen Ahmed. Работает только при включённом «Облаке», локально на 127.0.0.1; его собственные зависимости (express, zod, React и др.) распространяются под MIT/ISC/BSD/Apache-2.0 — полный текст лицензии FreeLLMAPI лежит в `Avgust Arkstone.app/Contents/Resources/freellmapi/LICENSE`.
 
 ## 3. Модели / Models
 Модели скачиваются из открытого каталога (huggingface.co) только по вашей просьбе. У каждой модели своя лицензия; она показана в карточке модели (раздел «Для опытных»). Среди них: Apache-2.0, MIT, Llama 3.x Community License («Built with Llama»), Gemma Terms of Use, Qwen License, Mistral (Apache-2.0), FLUX.1 schnell (Apache-2.0). Используя модель, вы принимаете её лицензию.
